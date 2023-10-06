@@ -1,1 +1,53 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body main .etlap h2 {
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+body main .etlap h3 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 95%;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+body main .etlap div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body main .etlap div .etelNev {
+  font-weight: bold;
+  text-align: center;
+  font-size: 75%;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  padding-bottom: 0px;
+}
+body main .etlap div .etelAr {
+  font-style: italic;
+  text-align: center;
+  font-size: 75%;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+body main .etlap .nap {
+  margin-left: 50px;
+  margin-right: 50px;
+  border-style: groove;
+  border-color: #dbca7e;
+}
+body .footer {
+  height: 250px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.85) 0%, rgb(0, 0, 0) 95%);
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

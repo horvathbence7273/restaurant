@@ -1,6 +1,6 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url(/restaurant/img/background/teritobackground.jpg);
+  background-image: url(img/background/teritobackground.jpg);
 }
 body #buttonFel {
   height: 2.5em;
@@ -81,3 +81,29 @@ body main .etlap .nap {
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.18), 0 0 0 2px rgb(190, 190, 190), 0.3em 0.3em 1em rgba(0, 0, 0, 0.5);
   padding-top: 0.5em;
 }/*# sourceMappingURL=style.css.map */
+
+header{
+  background-image: url(img/background/temp_BG.png);
+  background-size: contain;
+}
+
+nav{
+  position:relative;
+  bottom: 0;
+}
+
+nav .row{
+  text-align: center;
+  background-color: gray;
+  margin: 0;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+nav .col:hover{
+  background-color: black;
+}

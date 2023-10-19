@@ -1,6 +1,6 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url(/img/background/teritobackground.jpg);
+  background-image: url(img/background/teritobackground.jpg);
 }
 body #buttonFel {
   height: 2.5em;
@@ -28,11 +28,32 @@ body #buttonFel:hover {
   border-color: rgb(230, 230, 230);
 }
 body header {
-  height: 100px;
-  border-style: solid;
+  background-size: contain;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  height: 50px;
 }
-body header .container .row .active a {
-  background-color: darkslategray;
+body header nav .row {
+  height: 50px;
+  text-align: center;
+  border-radius: 15px;
+  margin: auto;
+  background-color: darkgray;
+}
+body header nav .row .active {
+  background-color: gray;
+  border-radius: 15px;
+}
+body header nav a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 10px;
+}
+body header nav .col:hover {
+  background-color: rgb(151, 184, 202);
+  border-radius: 15px;
 }
 body main h1 {
   text-align: center;
@@ -75,6 +96,7 @@ body main .etlap div img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  z-index: 1;
   transition: transform 0.25s;
 }
 body main .etlap div img:hover {
